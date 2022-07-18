@@ -122,7 +122,6 @@ body {
   font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
-  text-decoration-line: none;
   font-style: normal;
   color: var(--mail-footer-phone-footer);
   margin-left: 215px;
@@ -141,6 +140,10 @@ body {
   margin-left: 215px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.underline {
+  text-decoration-line: none;
 }
 
 .link-button:hover {
@@ -355,8 +358,10 @@ h2 {
 .flex-three {
   flex-basis: calc((100% - 90px) / 3);
   flex-wrap: wrap;
-  padding: 0;
-  margin-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 
 .item-portfolio {
@@ -383,6 +388,19 @@ h2 {
   margin-bottom: 30px;
 }
 
+.box-right-no-30 {
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+.portfolio-box-center-no-30 {
+  margin-bottom: 0;
+}
+
+.portfolio-box-left-no-30 {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
 .flex-header {
   display: flex;
 }
