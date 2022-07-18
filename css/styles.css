@@ -389,12 +389,12 @@ h2 {
 }
 
 .box-right-no-30 {
-  margin-right: 30px;
   margin-bottom: 0;
 }
 
 .portfolio-box-center-no-30 {
   margin-bottom: 0;
+  margin-left: 30px;
 }
 
 .portfolio-box-left-no-30 {
