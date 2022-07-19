@@ -287,28 +287,28 @@ h2 {
   gap: 8px;
 }
 
-.button-wszystkie {
+.button-all {
   width: 121px;
   height: 38px;
   border-radius: 4px;
   border: none;
 }
 
-.button-strony {
+.button-pages {
   width: 93px;
   height: 38px;
   border-radius: 4px;
   border: none;
 }
 
-.button-aplikacje {
+.button-apps {
   width: 114px;
   height: 38px;
   border-radius: 4px;
   border: none;
 }
 
-.button-dizajn {
+.button-design {
   width: 114px;
   height: 38px;
   border-radius: 4px;
