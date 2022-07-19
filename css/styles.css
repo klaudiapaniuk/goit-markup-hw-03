@@ -1,10 +1,9 @@
 header {
   background-color: var(--address-footer-link-button-focus);
-  display: flex;
   height: fit-content;
 }
 
-.line {
+.border {
   border-bottom: 1px solid #ececec;
 }
 .background-main-portfolio {
@@ -50,7 +49,6 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
-  margin-left: 215px;
 }
 
 .web-part-font {
@@ -113,9 +111,6 @@ body {
   line-height: 1.7em;
   letter-spacing: 0.03em;
   color: var(--address-footer-link-button-focus);
-  margin-left: 215px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .mail-footer {
@@ -124,9 +119,6 @@ body {
   letter-spacing: 0.03em;
   font-style: normal;
   color: var(--mail-footer-phone-footer);
-  margin-left: 215px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .phone-footer {
@@ -136,10 +128,10 @@ body {
   text-decoration-line: none;
   font-style: normal;
   color: var(--mail-footer-phone-footer);
+}
+
+.padding-footer {
   padding-bottom: 57px;
-  margin-left: 215px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .underline {
@@ -187,13 +179,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--address-footer-link-button-focus);
-  width: 696px;
-  margin-left: 452px;
   padding-top: 200px;
-}
-
-.container-1600 {
-  width: 1600px;
+  margin: 0;
 }
 
 .index-button {
@@ -217,9 +204,16 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
 
-  margin-left: 700px;
-  margin-bottom: 200px;
+.button-center {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.buttons-portfolio-center {
+  text-align: center;
 }
 
 .lorem-ipsum {
@@ -241,6 +235,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--subtitles-contacts);
   padding-bottom: 94px;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -250,6 +245,9 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-font);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
 }
 
 .name-person {
@@ -285,16 +283,13 @@ h2 {
 }
 
 .button-space {
-  display: flex;
-  justify-content: row;
+  display: inline-flex;
   gap: 8px;
 }
 
 .button-wszystkie {
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
   border-radius: 4px;
   border: none;
 }
@@ -302,8 +297,6 @@ h2 {
 .button-strony {
   width: 93px;
   height: 38px;
-  left: 639px;
-  top: 174px;
   border-radius: 4px;
   border: none;
 }
@@ -311,8 +304,6 @@ h2 {
 .button-aplikacje {
   width: 114px;
   height: 38px;
-  left: 740px;
-  top: 174px;
   border-radius: 4px;
   border: none;
 }
@@ -320,8 +311,6 @@ h2 {
 .button-dizajn {
   width: 114px;
   height: 38px;
-  left: 740px;
-  top: 174px;
   border-radius: 4px;
   border: none;
 }
@@ -329,28 +318,25 @@ h2 {
 .button-marketing {
   width: 121px;
   height: 38px;
-  left: 961px;
-  top: 174px;
   border-radius: 4px;
   border: none;
 }
 
 .container {
+  margin: 0 auto;
   width: 1200px;
 }
 
 .flex-container {
   display: flex;
-  margin-left: 215px;
 }
 
 .flex-lorem {
   display: flex;
-  margin-left: 215px;
-  justify-content: space-between;
+  flex: auto;
+  align-items: baseline;
   gap: 30px;
   padding-top: 94px;
-  padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -362,6 +348,8 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .item-portfolio {
@@ -401,39 +389,31 @@ h2 {
   margin-left: 30px;
   margin-bottom: 0;
 }
-.flex-header {
-  display: flex;
-}
 
-.flex-buttons-portfolio {
-  margin-left: 510px;
-  padding-top: 50px;
+.buttons-portfolio {
+  padding-top: 94px;
   padding-bottom: 50px;
 }
 
-.pics-9-portfolio {
-  margin-bottom: 150px;
-}
-.flex-czym {
+.flex-work {
   display: flex;
-  margin-left: 215px;
   gap: 30px;
   padding-left: 0px;
   padding-bottom: 50px;
   list-style: none;
 }
 
-.text-zespol {
+.text-team {
   padding-top: 94px;
 }
 
-.flex-zespol {
+.flex-team {
   display: flex;
-  margin-left: 215px;
   gap: 30px;
   padding-left: 0px;
   padding-bottom: 94px;
   list-style: none;
+  margin-bottom: 0;
 }
 
 .person-photo-box {
@@ -441,29 +421,6 @@ h2 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.webstudio-nav {
-  display: flex;
-  padding-left: 0px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.first-nav-list {
-  padding-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: flex;
-  gap: 46px;
-}
-
-.second-nav-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  display: flex;
-  gap: 50px;
-  padding-left: 371px;
 }
 
 .style {
@@ -478,11 +435,6 @@ h2 {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
-  margin-left: 215px;
-}
-
-.flex-footer {
-  display: flex;
 }
 
 .flex-footer-webstudio {
@@ -494,11 +446,80 @@ h2 {
   margin-bottom: 0;
 }
 
-.flex-footer-contacts {
-  display: block;
-  gap: 9px;
-  padding-left: 0px;
-  padding-bottom: 57px;
+.no-margins-paddings {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
+}
+
+.no-margins {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.flex-footer-contacts {
+  display: flex;
+  padding-bottom: 9px;
+}
+/*
+.column-1 {
+  column-count: 3;
+  column-gap: 46px;
+}
+
+.column-2 {
+  column-count: 2;
+  column-gap: 50px;
+}
+*/
+
+.flex-list3 {
+  display: flex;
+}
+
+.zero-nav-list {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.webstudio-placement {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.agency {
+  padding-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.portfolio {
+  padding-left: 46px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts {
+  padding-left: 46px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.flex-header {
+  display: flex;
+}
+
+.email {
+  padding-left: 371px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.phone {
+  padding-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
