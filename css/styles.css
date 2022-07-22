@@ -1,6 +1,7 @@
 header {
   background-color: var(--address-footer-link-button-focus);
-  height: fit-content;
+  height: 80px;
+  justify-content: center;
 }
 
 .border {
@@ -93,6 +94,7 @@ body {
   padding-left: 24px;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: left;
 }
 
 .pic-subtitle {
@@ -100,10 +102,11 @@ body {
   line-height: 1.9em;
   letter-spacing: 0.03em;
   color: var(--subtitles-contacts);
-  padding-bottom: 4px;
+  padding-bottom: 20px;
   padding-left: 24px;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: left;
 }
 
 .address-footer {
@@ -479,28 +482,9 @@ h2 {
   padding-bottom: 25px;
 }
 
-.agency {
-}
-
-.portfolio {
-}
-
-.contacts {
-}
-
 .flex-header {
   display: flex;
   flex-direction: row;
-}
-
-.email {
-  padding-left: 371px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.phone {
-  padding-left: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  justify-content: space-between;
+  align-items: center;
 }
