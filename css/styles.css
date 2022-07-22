@@ -1,7 +1,6 @@
 header {
   background-color: var(--address-footer-link-button-focus);
   height: 80px;
-  justify-content: center;
 }
 
 .border {
@@ -485,6 +484,19 @@ h2 {
 .flex-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+}
+
+.nav-header {
+  padding-left: 93px;
+  padding-right: 371px;
+}
+
+.portfolio {
+  padding-left: 46px;
+  padding-right: 46px;
+}
+
+.mail {
+  padding-right: 50px;
 }
