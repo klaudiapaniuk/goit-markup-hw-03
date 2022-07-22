@@ -480,28 +480,17 @@ h2 {
 }
 
 .agency {
-  padding-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .portfolio {
-  padding-left: 46px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .contacts {
-  padding-left: 46px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .flex-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .email {
