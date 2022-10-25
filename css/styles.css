@@ -33,6 +33,18 @@ body {
   background-color: var(--background-footer);
 }
 
+.background-photo {
+  width: 1600px;
+  margin: auto;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/indexbackground.jpg");
+}
+
 .background-team {
   background: var(--background-page);
 }
@@ -87,7 +99,7 @@ body {
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
-  color: #000000;
+  color: #212121;
   padding-top: 20px;
   padding-bottom: 4px;
   padding-left: 24px;
@@ -225,6 +237,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-font);
   width: 270px;
+  margin-top: 0;
 }
 
 .lorem-list {
@@ -236,8 +249,9 @@ body {
   line-height: 1.7em;
   letter-spacing: 0.03em;
   color: var(--subtitles-contacts);
+  width: 270px;
   padding-bottom: 94px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h2 {
@@ -270,7 +284,6 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--subtitles-contacts);
-  padding-bottom: 30px;
   margin: 0;
 }
 
@@ -338,7 +351,6 @@ h2 {
   flex: auto;
   align-items: baseline;
   gap: 30px;
-  padding-top: 94px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -355,7 +367,6 @@ h2 {
 }
 
 .item-portfolio {
-  width: 370px;
   list-style: none;
 }
 
@@ -364,6 +375,19 @@ h2 {
   color: #eeeeee;
 }
 
+.box-portfolio:focus {
+  border: 1px solid;
+  color: #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.box-portfolio:hover {
+  border: 1px solid;
+  color: #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-box-right {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -489,7 +513,7 @@ h2 {
 
 .nav-header {
   padding-left: 93px;
-  padding-right: 371px;
+  padding-right: 345px;
 }
 
 .portfolio {
@@ -498,5 +522,139 @@ h2 {
 }
 
 .mail {
-  padding-right: 50px;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+.phone-number {
+  padding-left: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.gallery-lorem {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.gallery-companies {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+
+.flex-companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+  width: 1200px;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.flex-lorem-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 94px auto 30px;
+  width: 1200px;
+  gap: 30px;
+}
+
+.icon {
+  margin: 25px 100px;
+}
+
+.company {
+  margin: 16px 32px;
+  fill: #afb1b8;
+}
+
+.gallery-companies:hover {
+  border: 1px solid #2196f3;
+}
+
+.company:hover {
+  fill: #2196f3;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+
+.smartphone-icon {
+  width: 12px;
+  height: 16px;
+  fill: #757575;
+}
+
+.mail-icon:hover {
+  fill: #2196f3;
+}
+
+.smartphone-icon:hover {
+  fill: #2196f3;
+}
+
+.mail-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.smartphone-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.socialmedia {
+  width: 20px;
+  height: 20px;
+  fill: #757575;
+}
+
+.socialmedia:hover {
+  fill: white;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 30px;
+}
+
+.media-icons {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+
+.media-icons:hover {
+  fill: #fff;
+  background-color: #2196f3;
+}
+
+.media-icons:focus {
+  fill: #fff;
+  background-color: #2196f3;
 }
